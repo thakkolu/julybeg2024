@@ -1,23 +1,17 @@
 package org.example.oops_1;
 
+import java.sql.SQLOutput;
+
 public class main {
     public static void main(String[] args) {
-        student s1=new student();
-        s1.name="sravani";
-        s1.age=25;
-        s1.psp=96.7f;
+        student s1=new student(26,69.8f);
+        s1.psp=99.8f;
         s1.changebatch();
+        System.out.println(s1.psp);
         s1.joinclass();
         s1.printdetails();
 
 
-        student s2=new student();
-        s2.name="reddy";
-        s2.age=25;
-        s2.psp=67f;
-        s2.changebatch();
-        s2.joinclass();
-        s2.printdetails();
 
     }
 

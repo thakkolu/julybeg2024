@@ -4,7 +4,11 @@ public class student {
     int age;
     String name;
     float psp;
+public student(int age,float psp){
+    this.age=age;
+    this.psp=psp;
 
+}
     void changebatch(){
         System.out.println("changind batch");
     }
